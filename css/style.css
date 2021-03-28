@@ -57,13 +57,18 @@ body {
 
 /* Intro */
 .intro {
-    background: url(../img/bg.jpg) no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: url(../img/bg.jpg) center no-repeat;
     height: 100vh;
     background-size: cover;
 }
 
 .intro_inner {
     text-align: center;
+    line-height: 2;
 }
 
 .intro_title {
@@ -78,4 +83,17 @@ body {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.btn_link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border: solid #fff 2px;
+    padding: 5px 25px;
+}
+.btn_link:hover {
+    background-color: #fff;
+    color: #c0301c;
 }
