@@ -34,17 +34,24 @@ body {
 .header_inner {
     display: flex;
     justify-content: space-between;
-    line-height: 5;
-    text-align: center;
+    line-height: 3.5;
+    align-items: center;
 }
 
 .header_logo {
     color: #fff;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .nav_link {
     text-decoration: none;
     color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 30px;
 }
 
 
@@ -53,4 +60,22 @@ body {
     background: url(../img/bg.jpg) no-repeat;
     height: 100vh;
     background-size: cover;
+}
+
+.intro_inner {
+    text-align: center;
+}
+
+.intro_title {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.intro_subtitle {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
