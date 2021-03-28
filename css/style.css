@@ -178,8 +178,57 @@ body {
 }
 
 .minititle_about {
-    margin: 95px auto 0;
+    padding: 95px 0 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color: #555;
+}
+.minititle_about::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 50px;
+    margin: 30px auto;
+    background-color: #555;
+}
+
+.title_string_about {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 70px;
+}
+
+.about_string {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.about_one {
+    max-width: 560px;
+    width: 100%;
+}
+.about_two {
+    max-width: 560px;
+    width: 100%;
+}
+
+.face_about_company {
+    text-align: center;
+}
+
+.face_about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.face_man {
+    margin: 20px auto 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #555;
+}
+.face_prof {
+    font-family: 'Roboto Slab', serif;
+    color: #555;
+    font-size: 13px;
 }
