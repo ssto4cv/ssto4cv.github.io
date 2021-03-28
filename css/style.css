@@ -166,4 +166,20 @@ body {
 }
 
 
-/*  */
+/* Block About Us */
+.block_about {
+    max-height: 850px;
+    height: 100%;
+    background-color: #f8f8f8;
+}
+
+.title_about {
+    text-align: center;
+}
+
+.minititle_about {
+    margin: 95px auto 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #555;
+}
