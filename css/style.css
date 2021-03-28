@@ -23,6 +23,7 @@ body {
     margin: 0 auto;
 }
 
+
 /* Header */
 .header {
     position: absolute;
@@ -91,9 +92,78 @@ body {
     text-transform: uppercase;
     color: #fff;
     border: solid #fff 2px;
-    padding: 5px 25px;
+    padding: 5px 30px;
 }
 .btn_link:hover {
     background-color: #fff;
     color: #c0301c;
 }
+
+
+/* Services */
+.block_services {
+    max-height: 775px;
+    height: 100%;
+}
+.title_services {
+    text-align: center;
+}
+
+.minititle_services {
+    margin: 95px auto 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #555;
+}
+.minititle_services::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 30px auto;
+    background-color: #555;
+}
+
+.title_string_services {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #555;
+}
+
+.block_services_menu {
+    display: flex;
+    margin: 65px auto 100px;
+}
+
+.block_services_one {
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+.t_s {
+    color: #555;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 30px auto 20px;
+}
+.services_string {
+    color: #555;
+}
+
+.block_services_two {
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.block_services_three {
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+
+/*  */
